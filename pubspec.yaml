@@ -1,0 +1,50 @@
+name: cypcar
+description: CypCar - Kıbrıs'ın araç alım satım platformu
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # UI
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.2.0+3
+  badges: ^3.1.2
+  gap: ^3.0.1
+  animations: ^2.0.11
+  flutter_animate: ^4.5.0
+
+  # Utils
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.2
+  image_picker: ^1.1.2
+
+  # Storage
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
